@@ -1,0 +1,20 @@
+#text{
+    height: fit-content;
+    width: fit-content;
+    border-radius: 20px;
+    font-size: 40px;
+    background-color: rgb(91, 31, 146);
+
+}
+#bloc{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 2rem;
+}
+#block{
+    height: 40px;
+    width: 40px;
+    background-color: rebeccapurple;
+   
+
+}

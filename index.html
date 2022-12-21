@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    Question 1: Write the code to access element which is having id as "text" <br>
+    on click color of the text will change.
+    <div id="text">Access using id "text"</div>
+    <hr>
+    Question 2: Write the code to access element which is having tag as "h1"
+    <button onclick="myFunction()">click me</button>
+    <h1>i am first h1</h1>
+    <h1>i am second h1</h1>
+    <div id="second">Text will change on clicking on the button</div>
+
+    Question 3: Write the code to access element which is having class as "box" <br><br>
+
+<div class="box"> On click this, color of the text will change to red. we are using class name zeroth index</div>
+
+"<h1>Hello </h1>
+
+Question 4: Change the heading from ""Hello"" to ""Hello World"" using DOM functions" <br>
+<button onclick="changeName()" id="changeName">Hello</button> <br>
+
+Question 5: Create three cards on HTML page and arrange them using flex property in row or horizontal direction
+and also create button at the bottom named "Change Flex direction". When user clicks on this button, the cards 
+arrangement should be changed to vertical direction. <br>
+<div id="bloc">
+<div id="block"></div>
+<div id="block"></div>
+<div id="block"></div>
+</div>
+
+<br>
+<button onclick="flexdir()">flex direction change</button>
+<br>
+Question 6: What’s the difference between window vs document?
+<pre>
+    In a web browser, the window object represents the current browser window, and the document object
+     represents the HTML document that is displayed in the window.
+
+The window object is a global object in JavaScript, and it provides access to many properties and methods 
+that are related to the current window, such as the innerWidth and innerHeight properties, which give the 
+width and height of the window's content area, and the open() and close() methods, which can be used to open
+ and close new windows.
+
+The document object represents the HTML document that is displayed in the current window. It provides access
+ to the structure and content of the document, as well as methods for manipulating the document. For 
+ example, the document.getElementById() method can be used to retrieve a specific element from the document
+  by its ID, and the document.createElement() method can be used to create new elements and add them to the
+   document.
+
+In general, the window object represents the browser window itself, while the document object represents the 
+contents of the window, which is typically an HTML document.
+
+</pre>
+<br>
+Question 7: 
+"<h1 >Hello </h1>
+click on HELLO for the magic <br>
+Add one style attribute and give text color as red and id attribute and give the id value as ""heading"" 
+in the above given h1 tag using DOM functions"
+
+
+
+
+    <script src="./main.js"></script>
+</body>
+</html>
